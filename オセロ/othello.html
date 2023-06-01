@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>オセロ</title>
+        <link rel="stylesheet" href="./style.css">
+        <script src="./program.js"></script>
+    </head>
+
+    <body>
+        <p id="msg"></p>
+        <div>
+            <canvas width="481" height="481" id="main_canvas"></canvas>
+        </div>
+        <from id="kuroPlayer" >
+            黒プレイヤー
+            <input type="radio" name="kuro" id="0" onchange="playerChange(1,0)" checked>人
+        </from>
+
+        <from id="shiroPlayer" >
+            白プレイヤー
+            <input type="radio" name="shiro" id="3" onchange="playerChange(0,0)" checked>人
+        </from>
+    </body>
+</html>
