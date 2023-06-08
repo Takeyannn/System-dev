@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>テトリス</title>
+        <link rel="stylesheet" href="./style.css">
+        <script src="./program.js"></script>
+    </head>
+
+    <body>
+        <p id="msg">ゲームの時間です</p>
+        <input type="button" value="スタート" onclick="start()">
+        <div>
+            <canvas width="300" height="600" id="main_canvas"></canvas>
+        </div>
+        <div>
+            <input type="button" value="←" onclick="Hidari()">
+            <input type="button" value="↻" onclick="kaiten()">
+            <input type="button" value="→" onclick="Migi()">
+        </div>
+        <input type="button" value="↓" onclick="Shita()">
+    </body>
+</html>
